@@ -1,0 +1,98 @@
+.home{
+    background-image: url("C:/Users/SHRUTI/Desktop/Node.js/fliqa india(task)/fliqa-india-task/src/bg.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.list-item{
+    list-style-type: none;
+    margin:20px;
+    text-decoration:none;
+    color: black;
+    text-align:center;
+    font-weight: bold;
+}
+.list-link{
+    display:block;
+    width: 100%;
+    text-decoration:none;
+    color: black;
+}
+.list-link:hover{
+    color: rgb(4, 76, 117);
+}
+.list-link:focus{
+    color: rgb(4, 76, 117);
+    text-shadow: 2px 2px pink;
+}
+
+.list-item:hover{
+    transform: scale(1.5);
+   
+}
+.list-item:focus{
+    list-style-type: none;
+    margin:10px;
+    text-decoration:none;
+    text-align:center;
+    font-weight: bold;
+    transform: scale(1.5);
+}
+
+.list-grp{
+    display: flex!important;
+    padding: 2%;
+    background: no-repeat;
+    background-size: cover;
+}
+.list-link img{
+    justify-content: center;
+    width: 20%; 
+}
+.content{
+    display: inline-block;
+}
+.content-box{
+    display:block;
+    justify-content: center;
+    margin: 5% 25% 5% 25%;
+    width:50%;
+}
+.content-box h1{
+    font-weight: bold;
+    color:rgb(3, 92, 114);
+}
+.content-box p{
+    font-weight:bold;
+    color:rgb(75, 23, 23)
+}
+.content a{
+    text-decoration:none;
+}
+@media only screen and (max-width: 1100px) {
+    .list{
+        overflow:scroll;
+        padding: 5px!important;
+    }
+    .list-item{
+        padding: 0 10px 0 10px
+    }
+    .list-link img{
+        width: 50px; 
+    }
+    .list-link{
+        display: block;
+        width: 100%;
+    }
+    .home{
+        background-image: url("C:/Users/SHRUTI/Desktop/Node.js/fliqa india(task)/fliqa-india-task/src/bg.png");
+        background-blend-mode: lighten;
+        background-repeat: no-repeat;
+        background-position: center; 
+    }
+    .content-box{
+        display:block;
+        justify-content: center;
+        margin: 5%;
+        width:90%;
+    }
+  }
