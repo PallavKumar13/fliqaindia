@@ -1,5 +1,11 @@
 import React from 'react'
 import './home.css';
+import weddingphotography from './Image/weddingphotography.png'
+import preweddingshoot from './Image/preweddingshoot.png'
+import beachphotography from './Image/beachphotography.png'
+import portfolio from './Image/portfolio.png'
+import drone from './Image/drone.png'
+import graphicdesign from './Image/graphicdesign.png'
 import { Helmet } from "react-helmet";
 export default function Home() {
   return (
@@ -12,22 +18,22 @@ export default function Home() {
         <div className="list">
           <div className="list-grp">
             <div className="list-item  ">
-              <a href="#" className="list-link" ><img src="/weddingphotography.png" /><p>WeddingPhotography</p></a>
+              <a href="#" className="list-link" ><img src={weddingphotography} alt="" /><p>WeddingPhotography</p></a>
             </div>
             <div className="list-item">
-              <a href="#" className="list-link" ><img src="/preweddingshoot.png" /><p>PreWeddingShoot</p></a>
+              <a href="#" className="list-link" ><img src={preweddingshoot} alt="" /><p>PreWeddingShoot</p></a>
             </div>
             <div className="list-item">
-              <a href="#" className="list-link"><img src="/beachphotography.png" /><p>BeachPhotography</p></a>
+              <a href="#" className="list-link"><img src={beachphotography} alt="" /><p>BeachPhotography</p></a>
             </div>
             <div className="list-item">
-              <a href="#" className="list-link"><img src="/portfolio.png" /><p>PortFolioShoot</p></a>
+              <a href="#" className="list-link"><img src={portfolio} alt="" /><p>PortFolioShoot</p></a>
             </div>
             <div className="list-item">
-              <a href="#" className="list-link"><img src="/drone.png" /><p>DroneService</p></a>
+              <a href="#" className="list-link"><img src={drone} alt="" /><p>DroneService</p></a>
             </div>
             <div className="list-item">
-              <a href="#" className="list-link"><img src="/graphicdesign.png" /><p>GraphicDesign</p></a>
+              <a href="#" className="list-link"><img src={graphicdesign} alt="" /><p>GraphicDesign</p></a>
             </div>
           </div>
         </div>
