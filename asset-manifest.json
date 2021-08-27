@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/fliqaindia/static/css/main.c7ff19e8.chunk.css",
-    "main.js": "/fliqaindia/static/js/main.c3c3517f.chunk.js",
-    "main.js.map": "/fliqaindia/static/js/main.c3c3517f.chunk.js.map",
+    "main.js": "/fliqaindia/static/js/main.c8a279cb.chunk.js",
+    "main.js.map": "/fliqaindia/static/js/main.c8a279cb.chunk.js.map",
     "runtime-main.js": "/fliqaindia/static/js/runtime-main.b839d05d.js",
     "runtime-main.js.map": "/fliqaindia/static/js/runtime-main.b839d05d.js.map",
     "static/css/2.818011ed.chunk.css": "/fliqaindia/static/css/2.818011ed.chunk.css",
@@ -12,14 +12,20 @@
     "static/css/2.818011ed.chunk.css.map": "/fliqaindia/static/css/2.818011ed.chunk.css.map",
     "static/css/main.c7ff19e8.chunk.css.map": "/fliqaindia/static/css/main.c7ff19e8.chunk.css.map",
     "static/js/2.365f607b.chunk.js.LICENSE.txt": "/fliqaindia/static/js/2.365f607b.chunk.js.LICENSE.txt",
+    "static/media/beachphotography.9174ebbb.png": "/fliqaindia/static/media/beachphotography.9174ebbb.png",
     "static/media/home.css": "/fliqaindia/static/media/bg.ae2fc34b.png",
-    "static/media/fliqaindia.42cb3412.png": "/fliqaindia/static/media/fliqaindia.42cb3412.png"
+    "static/media/drone.7f1aa85d.png": "/fliqaindia/static/media/drone.7f1aa85d.png",
+    "static/media/fliqaindia.42cb3412.png": "/fliqaindia/static/media/fliqaindia.42cb3412.png",
+    "static/media/graphicdesign.99f221cf.png": "/fliqaindia/static/media/graphicdesign.99f221cf.png",
+    "static/media/portfolio.8cfdb09f.png": "/fliqaindia/static/media/portfolio.8cfdb09f.png",
+    "static/media/preweddingshoot.999c3c71.png": "/fliqaindia/static/media/preweddingshoot.999c3c71.png",
+    "static/media/weddingphotography.7740bc2b.png": "/fliqaindia/static/media/weddingphotography.7740bc2b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b839d05d.js",
     "static/css/2.818011ed.chunk.css",
     "static/js/2.365f607b.chunk.js",
     "static/css/main.c7ff19e8.chunk.css",
-    "static/js/main.c3c3517f.chunk.js"
+    "static/js/main.c8a279cb.chunk.js"
   ]
 }
